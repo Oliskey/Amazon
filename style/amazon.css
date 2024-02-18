@@ -1,0 +1,111 @@
+.main{
+  width: 100%;
+  margin: 70px 0 0 0;
+}
+p{
+  color: black;
+}
+
+/************larg devices only************/
+@media (min-width:1115px) {
+ .col-lg-3{
+  float: left;
+  border-right: 1px solid rgb(231, 231, 231);
+  border-bottom: 1px solid rgb(231, 231, 231);
+  }
+  .col-lg-3{
+    width: 25%;
+  }
+}
+
+/************medium devices only************/
+@media (min-width: 806px) and (max-width: 1114px) {
+  .col-xm-4{
+  float: left;
+  border-right: 1px solid rgb(231, 231, 231);
+  border-bottom: 1px solid rgb(231, 231, 231);
+  }
+  .col-xm-4{
+  width: 33.33%;
+  }
+}   
+
+/************mini devices only************/
+@media (min-width: 451px) and (max-width: 805px) {
+  .col-md-6{
+  float: left;
+  border-right: 1px solid rgb(231, 231, 231);
+  border-bottom: 1px solid rgb(231, 231, 231);
+  }
+  .col-md-6{
+    width: 50%;
+  }
+  
+}
+
+.Container{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 25px 25px 25px;
+  height: 450px;
+}
+ 
+.products_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  margin-bottom: 20px;
+}
+.products{
+  max-width: 100%;
+  max-height: 100%;
+}
+.products_description{
+  width: 100%;
+  place-items: center;
+}
+.rate{
+  display: flex;
+  flex-direction: row;
+  margin: 5px 0 0 0;
+}
+.grade{
+  width:100px;
+  height:20px;
+  margin: 5px 0 5px 0;
+}
+.grade_num{
+  color: rgb(1, 124, 182);
+  margin: 8px 0 0 8px;
+}
+.Amount{
+  font-weight: bold;
+  margin: 5px 0 0 0;
+}
+.select{
+  width: 51px;
+  margin: 10px 0 0 0;
+}
+.check{
+  margin: 23px;
+}
+.add_button{
+  padding: 9px 0 9px 0;
+  width: 100%;
+  background-color: rgb(255, 216, 20);
+  border: 1px solid rgb(252, 210, 0);
+  border: none;
+  border-radius: 24px;
+  box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
+  color: rgb(33, 33, 33);
+}
+.add_button:hover{
+  background-color: rgb(247, 202, 0);
+  border: 0 solid rgb(242, 194, 0);
+}
+.add_button:active{
+  background-color: rgb(255, 216, 20);
+  border:0 solid rgb(252, 210, 0);
+  box-shadow: none;
+}
